@@ -27,7 +27,7 @@ app.use("/auth",authRoutes)
 
 //connection a la base de donnée 
 async function connectDb(){
-    await mongoose.connect("mongodb+srv://danstephane02:Kourouma2012@cluster0.iavrl.mongodb.net/",{
+    await mongoose.connect("",{
         dbName: "Ecom",
     });
     console.log("Mongo Db connected");
